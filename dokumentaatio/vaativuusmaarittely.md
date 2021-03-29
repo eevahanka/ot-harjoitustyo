@@ -5,7 +5,7 @@ Vaihtoehtoisesti pelaaja voi myös klikkailla lautaa sattumanvaraiseti.
 
 ### Käyttöliittymäluonnos
 
-![kuva käyttöliittymästä](/kayttoliittymaluonnos.jpeg)
+![kuva käyttöliittymästä](/dokumentaatio/kayttoliittymaluonnos.jpeg)
 
 Kun pelin avaa näkymässä on vaihtoehtina uusi peli, stats ja asetukset.
 Uusi peli luo koskemattoman pelilaudan.
