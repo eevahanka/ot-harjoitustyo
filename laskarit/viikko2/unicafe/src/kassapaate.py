@@ -42,3 +42,4 @@ class Kassapaate:
             self.kassassa_rahaa += summa
         else:
             return
+
