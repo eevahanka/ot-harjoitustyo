@@ -1,5 +1,5 @@
 import unittest
-from ent_square import Square
+from logic.ent_square import Square
 
 class TestSquare(unittest.TestCase):
     def setUp(self):
