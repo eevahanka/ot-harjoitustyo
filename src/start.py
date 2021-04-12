@@ -1,3 +1,6 @@
-from ui.ui import Ui
+from UI.ui import Ui
+
+#src/UI/ui.py
 
 game = Ui()
+
