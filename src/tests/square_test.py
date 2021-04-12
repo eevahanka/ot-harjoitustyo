@@ -1,8 +1,8 @@
 import unittest
-from logic.ent_square import Square
+from ent_square import Square
 
 class TestSquare(unittest.TestCase):
-    def setUp(self) -> None:
+    def setUp(self):
         self.square = Square()
     def test_square_flag_turns_to_true(self):
         self.square.flagging()

@@ -1,5 +1,5 @@
 import pygame
-from src.logic.game import Game
+from logic.game import Game
 
 
 class Ui:

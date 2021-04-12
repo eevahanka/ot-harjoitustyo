@@ -1,4 +1,4 @@
-from square import Square
+from ent_square import Square
 
 class Game:
     def __init__(self, bombs = 20):
@@ -14,10 +14,10 @@ class Game:
                 row.append(block)
             self.board.append(row)
     
+    def _add_bombs(self):
+        pass
+
     def _check_if_bomb(self, position):
         pass
 
 
-if True: #__name__ == "__main__":
-    game = Game()
-    print(game.board)

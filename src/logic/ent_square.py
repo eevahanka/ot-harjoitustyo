@@ -14,9 +14,3 @@ class Square:
     def opening(self):
         #self.bombs =count_bombs_around()
         pass
-
-if __name__ == "__main__":
-    c = Square()
-    print(c.flag)
-    c.flagging()
-    print(c.flag)
