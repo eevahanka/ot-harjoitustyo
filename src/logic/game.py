@@ -1,4 +1,5 @@
-from ent_square import Square
+from logic.square import Square
+#src/logic/ent_square.py
 
 class Game:
     def __init__(self, bombs = 20):
