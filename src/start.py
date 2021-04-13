@@ -1,4 +1,4 @@
-from UI.ui import Ui
+from ui.ui import Ui
 
 #src/UI/ui.py
 

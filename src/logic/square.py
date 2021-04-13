@@ -1,5 +1,5 @@
 class Square:
-    def __init__(self) -> None:
+    def __init__(self):
         self.bomb = False
         self.open = False
         self.flag = False
