@@ -14,3 +14,8 @@ def test(ctx):
 @task
 def start(ctx):
    ctx.run("python3 src/start.py")
+
+
+@task
+def lint(ctx):
+    ctx.run("pylint src")

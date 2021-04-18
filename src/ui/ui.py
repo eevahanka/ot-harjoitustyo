@@ -10,7 +10,7 @@ class Ui:
         pygame.display.set_caption("Minesweeper BETA")
         self.view = "menu"
         self._run()
-        
+
     def _run(self):
         while True:
             self._draw_view()
@@ -32,24 +32,22 @@ class Ui:
         if self.view == "game":
             self._draw_game()
         pygame.display.flip()
-        
+
     def _draw_game(self):
         self._draw_grid()
         self._draw_board()
-        
+
     def _draw_grid(self):
-        block_size = 20 
+        block_size = 20
         for x in range(block_size, 300, block_size):
             for y in range(block_size, 300, block_size):
                 rect = pygame.Rect(x, y, block_size, block_size)
                 pygame.draw.rect(self.screen, (127, 127, 127), rect, 1)
-    
+
     def _draw_board(self):
         pass
-    
+
     def _draw_menu(self):
-        text_new_game = self.font.render("New game (press 'k') ", True, (0, 0, 0))
+        text_new_game = self.font.render(
+            "New game (press 'k') ", True, (0, 0, 0))
         self.screen.blit(text_new_game, (280, 100))
-
-
-

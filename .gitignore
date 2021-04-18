@@ -10,3 +10,4 @@ htmlcov
 __pycache__
 *.py[cod]
 *$py.class
+src/UI/__pycache__
