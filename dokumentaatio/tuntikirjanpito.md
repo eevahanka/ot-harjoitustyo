@@ -9,5 +9,5 @@
 | 13.4. | 3    | import komennon ongelman selvittelyä |
 | 17.4. | 2    | pylint käyttöön + pylintin herjaamien ongelmien korjausta |
 | 18.4. | 4    | pelin logiikan tekoa + testien tekemistä |
-|  yht  | 21   |
+|  yht  | 27   |
          
