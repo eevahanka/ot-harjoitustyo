@@ -1,6 +1,6 @@
 import pygame
-from logic.game import Game
 
+from logic.game import Game
 
 class Ui:
     def __init__(self):
@@ -24,6 +24,12 @@ class Ui:
                 if event.key == pygame.K_k and self.view == "menu":
                     self.view = "game"
                     game = Game()
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                if event.button == 1:
+                    #painoit nappia 1 kohdassa (56, 33)
+                    if event.pos[0] > 5 and event.pos[0] < 55 and event.pos[1] > 10 and event.pos[1] < 33:
+                        self.view = "menu"
+                    #print("painoit nappia", event.button, "kohdassa", event.pos)
 
     def _draw_view(self):
         self.screen.fill((255, 255, 255))
@@ -36,11 +42,17 @@ class Ui:
     def _draw_game(self):
         self._draw_grid()
         self._draw_board()
+        text_minesweeper = self.font.render( "Minesweeper", True, (0, 0, 0))
+        self.screen.blit(text_minesweeper, (280, 10))
+        text_back = self.font.render("Back", True, (0, 0, 0))
+        self.screen.blit(text_back, (5, 10))
+
+
 
     def _draw_grid(self):
         block_size = 20
-        for x in range(block_size, 300, block_size):
-            for y in range(block_size, 300, block_size):
+        for x in range(20 +block_size, 300, block_size):
+            for y in range(60 + block_size, 60 +300, block_size):
                 rect = pygame.Rect(x, y, block_size, block_size)
                 pygame.draw.rect(self.screen, (127, 127, 127), rect, 1)
 
@@ -48,6 +60,5 @@ class Ui:
         pass
 
     def _draw_menu(self):
-        text_new_game = self.font.render(
-            "New game (press 'k') ", True, (0, 0, 0))
+        text_new_game = self.font.render("New game (press 'k') ", True, (0, 0, 0))
         self.screen.blit(text_new_game, (280, 100))
