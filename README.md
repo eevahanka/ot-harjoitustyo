@@ -1,6 +1,6 @@
 
 
-[vaativuusmäärittely](/dokumentaatio/vaativuusmaarittely.md)
+[vaatimusmäärittely](/dokumentaatio/vaatimusmaarittely.md)
 
 [tuntikirjanpito](/dokumentaatio/tuntikirjanpito.md)
 
