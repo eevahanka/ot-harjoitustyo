@@ -11,5 +11,5 @@
 | 18.4. | 4    | pelin logiikan tekoa + testien tekemistä |
 | 25.4. | 4    | pelin logiikan sekä ui tekoa |
 | 26.-27.4. | 6    | debuggausta, sekvenssikaavionteko |
-|  yht  | 27   |
+|  yht  | 37   |
          
