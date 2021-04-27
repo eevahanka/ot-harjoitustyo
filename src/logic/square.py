@@ -10,4 +10,3 @@ class Square:
             self.flag = False
         else:
             self.flag = True
-

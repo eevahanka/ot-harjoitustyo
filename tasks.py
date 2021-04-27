@@ -13,7 +13,7 @@ def test(ctx):
 
 @task
 def start(ctx):
-   ctx.run("python3 src/start.py")
+    ctx.run("python3 src/start.py")
 
 
 @task
