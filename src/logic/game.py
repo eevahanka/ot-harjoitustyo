@@ -56,11 +56,12 @@ class Game:
         block = self.board[y_coord][x_coord]
         if block.open == False:
             self._count_bombs_around_block(x_coord, y_coord)
+            block.open = True
             if block.bombs_around == 0:
                 # self._open_neighbours(x_coord, y_coord) #this creates recursionerror :)))
                 # print(bomb_count)
                 pass
-            block.open = True
+            
 
     def _open_neighbours(self, x_coord, y_coord):
         for i in range(y_coord-1, y_coord+2):
@@ -68,7 +69,7 @@ class Game:
                 if i == y_coord and j == x_coord:
                     continue
                 if i > -1 and i < self.size and j > -1 and j < self.size:
-                    if self.board[j][i].open == False:
+                    if self.board[i][j].open == False:
                         self._open_block(j, i)
 
     def handle_rightclick_on_board(self, x_coord, y_coord):
