@@ -12,19 +12,19 @@
 
 - Asenna riippuvuudet komennolla: 
 
-````poetry install````
+````  poetry install````
 
 - Käynnistä sovellus komennolla:
 
-````poetry run invoke start````
+````  poetry run invoke start````
 
 - Käynnistä testit komennolla:
 
-````poetry run invoke test````
+````  poetry run invoke test````
 
 - Luo testikattavuusraportti komennolla:
-poetry run invoke coverage-report
+````  poetry run invoke coverage-report````
 
-- pylint
+- pylint raportti komennolla:
 
-poetry run invoke lint
+````  poetry run invoke lint````
