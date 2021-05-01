@@ -19,3 +19,9 @@ def start(ctx):
 @task
 def lint(ctx):
     ctx.run("pylint src")
+
+@task(test, lint)
+def do(ctx):
+    """ just to make my life easier
+    """
+    print("cheks done :)")
