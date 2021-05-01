@@ -5,6 +5,7 @@
 ## Rakenne
 
 Koodin pakkausrakenne:
+
 ![kuva pakkauskaaviosta](/dokumentaatio/kaavio.jpeg)
 
 Pakkaus ui sisältää käyttöliittymän koodin, pakkaus logic sisältää pelinlogiikasta huolehtivan koodin ja repo sisältää pysyväistallennuksesta vastaavan koodin.
