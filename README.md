@@ -3,10 +3,9 @@
 ## Dokumentaatio
 
 - [vaatimusmäärittely](/dokumentaatio/vaatimusmaarittely.md)
-
 - [tuntikirjanpito](/dokumentaatio/tuntikirjanpito.md)
-
 - [arkkitehtuuri](/dokumentaatio/arkkitehtuuri.md)
+- [käyttöohje](/dokumentaatio/kayttoohje.md)
 
 ## Komennot
 
