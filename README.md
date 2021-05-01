@@ -11,7 +11,7 @@
 ## Komennot
 
 - Asenna riippuvuudet komennolla:
-poetry install
+````poetry install````
 
 - Käynnistä sovellus komennolla:
 poetry run invoke start
