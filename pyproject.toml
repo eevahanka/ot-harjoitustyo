@@ -8,6 +8,7 @@ authors = ["eevahanka <eeva.hanka@iki.fi>"]
 python = "^3.6"
 invoke = "^1.5.0"
 pygame = "^2.0.1"
+python-dotenv = "^0.17.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"

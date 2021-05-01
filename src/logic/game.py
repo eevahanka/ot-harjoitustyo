@@ -7,12 +7,13 @@ except ImportError:
 
 
 class Game:
-    def __init__(self, bombs=70, size=15):
+    def __init__(self, bombs=7, size=15):
         self.bombs = bombs
         self.board = []
         self.size = size
         self._create_board()
         self._add_bombs()
+        self.bombs_without_flag = bombs
 
     def _create_board(self):
         for __ in range(0, self.size):
@@ -46,6 +47,8 @@ class Game:
 
     def handle_leftclick_on_board(self, x_coord, y_coord):
         block = self.board[y_coord][x_coord]
+        if block.flag:
+            return True
         if block.bomb:
             return False
             # game over
@@ -54,14 +57,12 @@ class Game:
 
     def _open_block(self, x_coord, y_coord):
         block = self.board[y_coord][x_coord]
-        if block.open == False:
+        if not block.open:
             self._count_bombs_around_block(x_coord, y_coord)
             block.open = True
             if block.bombs_around == 0:
-                # self._open_neighbours(x_coord, y_coord) #this creates recursionerror :)))
+                self._open_neighbours(x_coord, y_coord)
                 # print(bomb_count)
-                pass
-            
 
     def _open_neighbours(self, x_coord, y_coord):
         for i in range(y_coord-1, y_coord+2):
@@ -69,8 +70,14 @@ class Game:
                 if i == y_coord and j == x_coord:
                     continue
                 if i > -1 and i < self.size and j > -1 and j < self.size:
-                    if self.board[i][j].open == False:
+                    if not self.board[i][j].open:
                         self._open_block(j, i)
 
     def handle_rightclick_on_board(self, x_coord, y_coord):
-        self.board[y_coord][x_coord].flagging()
+        flag = self.board[y_coord][x_coord].flagging()
+        block = self.board[y_coord][x_coord]
+        if block.bomb:
+            if block.flag:
+                self.bombs_without_flag -= 1
+            elif not block.flag:
+                self.bombs_without_flag += 1

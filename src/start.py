@@ -1,5 +1,8 @@
 from ui.ui import Ui
+from init_database import init_database
 
-#src/UI/ui.py
+
+init_database()
+# src/UI/ui.py
 
 game = Ui()
