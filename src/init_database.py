@@ -1,7 +1,7 @@
 from database_connection import get_database_connection
 
 
-def drop_table(connection):
+def _drop_table(connection):
     cursor = connection.cursor()
     cursor.execute('''
         drop table if exists games;
@@ -9,7 +9,7 @@ def drop_table(connection):
     connection.commit()
 
 
-def create_table(connection):
+def _create_table(connection):
     cursor = connection.cursor()
     cursor.execute('''
         create table games ( 
@@ -24,5 +24,5 @@ def create_table(connection):
 
 def init_database():
     connection = get_database_connection()
-    drop_table(connection)
-    create_table(connection)
+    _drop_table(connection)
+    _create_table(connection)
