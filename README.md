@@ -1,5 +1,11 @@
 # Minesweeper
 
+## todo
+
+- arkkitehtuurin kuvat 
+- tällä hetkellä repositorio tyhjennetään kun peli käynnistetään
+- 
+
 ## Dokumentaatio
 
 - [vaatimusmäärittely](/dokumentaatio/vaatimusmaarittely.md)
