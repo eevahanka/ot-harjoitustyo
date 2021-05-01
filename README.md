@@ -10,14 +10,17 @@
 
 ## Komennot
 
-- Asenna riippuvuudet komennolla:
+- Asenna riippuvuudet komennolla: 
+
 ````poetry install````
 
 - Käynnistä sovellus komennolla:
-poetry run invoke start
+
+````poetry run invoke start````
 
 - Käynnistä testit komennolla:
-poetry run invoke test
+
+````poetry run invoke test````
 
 - Luo testikattavuusraportti komennolla:
 poetry run invoke coverage-report
