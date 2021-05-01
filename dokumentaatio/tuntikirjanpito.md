@@ -11,7 +11,7 @@
 | 18.4. | 4    | pelin logiikan tekoa + testien tekemistä |
 | 25.4. | 4    | pelin logiikan sekä ui tekoa |
 | 26.-27.4. | 6    | debuggausta, sekvenssikaavionteko |
-| 30.4.-1.5. | 6    | repositorion + sen logiikan lisäys |
+| 30.4.-1.5. | 6    | repositorion + sen logiikan lisäys + peli päättyy |
 | 1.5.| 4  | testien kirjoitusta, docstringiä, readme:n arkkitehtuurin käyttöohjeen kirjoitus |
 |  yht  | 47   |
          
