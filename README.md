@@ -4,7 +4,11 @@
 
 - arkkitehtuurin kuvat 
 - tällä hetkellä repositorio tyhjennetään kun peli käynnistetään
-- 
+- käyttöohje
+- repositorin testit
+- testausdokumentti
+- #koodin siivoaminen 
+- määrittely dokumentin päivitys
 
 ## Dokumentaatio
 
