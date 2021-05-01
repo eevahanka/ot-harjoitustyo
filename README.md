@@ -22,6 +22,6 @@ poetry run invoke test
 - Luo testikattavuusraportti komennolla:
 poetry run invoke coverage-report
 
--pylint
+- pylint
 
 poetry run invoke lint
