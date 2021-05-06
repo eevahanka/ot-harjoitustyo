@@ -3,7 +3,6 @@
 ## todo
 
 - arkkitehtuurin kuvat 
-- tällä hetkellä repositorio tyhjennetään kun peli käynnistetään
 - käyttöohje
 - repositorin testit
 - testausdokumentti
