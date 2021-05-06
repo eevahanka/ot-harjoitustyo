@@ -2,6 +2,7 @@
 
 ## todo
 
+- statseihin lista vanhoista peleistä
 - arkkitehtuurin kuvat 
 - käyttöohje
 - repositorin testit
