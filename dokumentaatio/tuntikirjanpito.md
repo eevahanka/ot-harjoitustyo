@@ -14,5 +14,5 @@
 | 30.4.-1.5. | 6    | repositorion + sen logiikan lisäys + peli päättyy |
 | 1.5.| 4  | testien kirjoitusta, docstringiä, readme:n arkkitehtuurin käyttöohjeen kirjoitus |
 | 6.5.| 4  | koodin siistimistä , databasen luonti ja sovelluksen käynnistys erillään, dokumentaation päivitystä |
-|  yht  | 47   |
+|  yht  | 51   |
          
