@@ -5,10 +5,6 @@ class GameRepository():
     def __init__(self, connection) -> None:
         self.connection = connection
 
-    def list_past_games(self):
-        cursor = self.connection.cursor()
-        # past_games =
-
     def get_win_amound(self):
         cursor = self.connection.cursor()
         wins = cursor.execute(
