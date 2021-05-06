@@ -25,3 +25,7 @@ def do(ctx):
     """ just to make my life easier
     """
     print("cheks done :)")
+
+@task
+def build(ctx):
+    ctx.run("python3 src/build.py")
