@@ -1,5 +1,4 @@
 from random import randint
-# import apparently works differently from commandline and vsc
 try:
     from logic.square import Square
 except ImportError:
@@ -99,7 +98,6 @@ class Game:
             block.open = True
             if block.bombs_around == 0:
                 self._open_neighbours(x_coord, y_coord)
-                # print(bomb_count)
 
     def _open_neighbours(self, x_coord, y_coord):
         """käy läpi ruudun naapurit ja avaa ne

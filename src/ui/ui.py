@@ -1,7 +1,7 @@
 from datetime import datetime
 import pygame
 from time import sleep
-# src/repo/game_repo.py
+
 try:
     from repo.game_repo import game_repo
 except ImportError:
@@ -47,36 +47,27 @@ class Ui:
     def _handle_events_in_menu(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 1:
-                #print("painoit nappia", event.button, "kohdassa", event.pos)
                 if event.pos[0] > 273 and event.pos[0] < 383 and event.pos[1] > 106 and event.pos[1] < 122:
-                    # painoit nappia 1 kohdassa (273, 106) painoit nappia 1 kohdassa(383, 122)
                     self.view = "game"
                     self.game = Game()
                 elif event.pos[0] > 270 and event.pos[0] < 325 and event.pos[1] > 155 and event.pos[1] < 173:
                     self.view = "stats"
 
-                # painoit nappia 1 kohdassa (270, 155) ,painoit nappia 1 kohdassa(325, 173)
-
     def _handle_events_in_game(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 1:
-                # painoit nappia 1 kohdassa (56, 33)
                 if event.pos[0] > 5 and event.pos[0] < 55 and event.pos[1] > 10 and event.pos[1] < 33:
                     self.view = "menu"
-                    #print("painoit nappia", event.button, "kohdassa", event.pos)
                 elif event.pos[0] > 2 * self.block_size and event.pos[0] < 300 + (2 * self.block_size) and event.pos[1] > 4 * self.block_size and event.pos[1] < (4 * self.block_size) + 300:
-                    # grid!
                     x = event.pos[0] - 20 - self.block_size
                     y = event.pos[1] - 60 - self.block_size
                     x = x // 20
                     y = y // 20
                     if not self.game.handle_leftclick_on_board(x, y):
-                        # game over
                         self.game_won = False
                         self.view = "game_over"
             elif event.button == 3:
                 if event.pos[0] > 2 * self.block_size and event.pos[0] < 300 + (2 * self.block_size) and event.pos[1] > 4 * self.block_size and event.pos[1] < (4 * self.block_size) + 300:
-                    # grid!
                     x = event.pos[0] - 20 - self.block_size
                     y = event.pos[1] - 60 - self.block_size
                     x = x // 20
@@ -85,8 +76,6 @@ class Ui:
         if self.game.bombs_without_flag == 0:
             self.game_won = True
             self.view = "game_over"
-
-            #print("painoit nappia", event.button, "kohdassa", event.pos)
 
     def _draw_view(self):
         self.screen.fill((255, 255, 255))
@@ -118,7 +107,6 @@ class Ui:
         for i in range(self.game.size):
             for j in range(self.game.size):
                 if self.game.board[i][j].flag:
-                    # draw flag
                     flag = self.font2.render("F", True, (0, 0, 0))
                     self.screen.blit(flag, (20 + self.block_size + (j * self.block_size),
                                      60 + self.block_size + (i * self.block_size)))
@@ -145,7 +133,7 @@ class Ui:
         if wins > loses:
             color = (0, 255, 0)  # green
         elif wins < loses:
-            color = (255, 0 , 0)  # red
+            color = (255, 0, 0)  # red
         text_wins_loses_amount = self.font.render(
             f"{wins}/{loses}", True, color)
         self.screen.blit(text_wins_loses_amount, (270, 150))
@@ -153,7 +141,6 @@ class Ui:
     def _handle_events_in_stats(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 1:
-                # painoit nappia 1 kohdassa (56, 33)
                 if event.pos[0] > 5 and event.pos[0] < 55 and event.pos[1] > 10 and event.pos[1] < 33:
                     self.view = "menu"
 
@@ -163,7 +150,6 @@ class Ui:
         elif not self.game_won:
             text_game_over = self.font.render("You lost", True, (0, 0, 0))
         self.screen.blit(text_game_over, (270, 100))
-        
 
     def _handle_events_in_game_over(self, event):
         timestamp = datetime.now()
@@ -171,7 +157,6 @@ class Ui:
             win_or_loss = "Win"
         else:
             win_or_loss = "Loss"
-        #print(timestamp.strftime("%d.%m.%Y" + " " + "%H:%M"))
         self.repo.add_game(timestamp, win_or_loss)
         sleep(4)
         self.view = "menu"
