@@ -18,7 +18,7 @@ class Ui:
         self.font = pygame.font.SysFont("Arial", 24)
         self.font2 = pygame.font.SysFont("Arial", 19)
         self.screen = pygame.display.set_mode((640, 480))
-        pygame.display.set_caption("Minesweeper BETA")
+        pygame.display.set_caption("Minesweeper")
         self.view = "menu"
         self.game = None
         self.block_size = 20
