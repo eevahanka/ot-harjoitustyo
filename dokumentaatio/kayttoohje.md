@@ -2,9 +2,13 @@
 
 ## Ohjelman käynnistäminen
 
-- Ennen käynnistyatä asenna riippuvuudet komennolla: 
+- Asenna riippuvuudet komennolla: 
 
 ````          poetry install````
+
+- Luo database ennen sovelluksen käynnistämistä:
+
+````  poetry run invoke build````
 
 - Käynnistä sovellus komennolla:
 
