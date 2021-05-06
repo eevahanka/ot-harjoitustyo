@@ -6,7 +6,7 @@
 - poista beta sovelluksen otsikosta 
 - käyttöohje
 - testausdokumentti 
-- määrittely dokumentin päivitys
+
 
 ## Dokumentaatio
 
