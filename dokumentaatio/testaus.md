@@ -10,7 +10,7 @@ Square- ja Game-luokista koostuvaa sovelluslogiikkaa testataan  TestSquare- sek�
 
 Käyttöliittymää lukuunottamatta testauksen haaraumakattavuus on 71%
 
-[kuva haaraumakattavuudesta](/dokumentaatio/haaraumakattavuus.jpeg)
+[kuva haaraumakattavuudesta](/dokumentaatio/haaraumakattavuus.jpg)
 
 Testaamatta jäi repositorio sekä importerroriin varautuneet try-except:n käyttö importatessa.
 
