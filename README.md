@@ -2,12 +2,9 @@
 
 ## todo
 
-- statseihin lista vanhoista peleistä
 - arkkitehtuurin kuvat 
 - käyttöohje
-- repositorin testit
-- testausdokumentti
-- #koodin siivoaminen 
+- testausdokumentti 
 - määrittely dokumentin päivitys
 
 ## Dokumentaatio
