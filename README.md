@@ -2,7 +2,8 @@
 
 ## todo
 
-- arkkitehtuurin kuvat 
+- arkkitehtuurin kuvat
+- poista beta sovelluksen otsikosta 
 - käyttöohje
 - testausdokumentti 
 - määrittely dokumentin päivitys
