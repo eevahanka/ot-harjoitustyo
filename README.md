@@ -3,9 +3,6 @@
 ## todo
 
 - arkkitehtuurin kuvat
-- poista beta sovelluksen otsikosta 
-- käyttöohje
-- testausdokumentti 
 
 
 ## Dokumentaatio
