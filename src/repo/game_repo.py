@@ -25,6 +25,7 @@ class GameRepository():
         cursor = self.connection.cursor()
         cursor.execute(
             "INSERT INTO games (timestamp, win_loss) VALUES (?, ?)", [timestamp, win_or_loss])
+        self.connection.commit()
 
 
 game_repo = GameRepository(get_database_connection())
