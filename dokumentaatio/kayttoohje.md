@@ -20,5 +20,9 @@ Ohjelman avatessa avautuu näkymä:
 
 ![kuva menusta](/dokumentaatio/photos/kuva_menusta.jpg)
 
-Painamalla _Uusi peli_ avautuu peli näkymä ja painamalla _Stats_ avautuu näkymä jossa on pelin statistiikka.
+Painamalla  _Stats_ avautuu näkymä jossa on pelin statistiikka  ja painamalla _Uusi peli_ avautuu peli näkymä:
 
+![kuva pelistä](/dokumentaatio/photos/kuva_pelista.jpg)
+
+Painamalla ruutua hiiren vasemmalla painikkeella ruutu "avataan" painamalla oikealla painikkeella ruutu liputetaan.
+Pelin loputtua peli palaa automaattisesti menuun.
