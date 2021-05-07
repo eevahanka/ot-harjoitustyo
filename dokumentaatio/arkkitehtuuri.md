@@ -24,7 +24,7 @@ Käyttöliittymään kuuluu 3 näkymää:
 
 Pelin toiminta perustuu luokkiin Game ja Square:
 
-![Luokkien Peli ja Saquare suhde](/dokumentaatio/??????.jpeg)
+![Luokkien Peli ja Saquare suhde](/dokumentaatio/photos/??????.jpeg)
 
 (ei ole olemassa)
 
@@ -46,7 +46,7 @@ Päättyneet pelit tallennetaan SQLite -tietokannan tauluun ````games````, joka 
 
 Kun käyttäjä klikkaa uusi peli -painiketta luodaan uusi peli.
 
-![sekvenssikaavio uuden pelin luomisesta](/dokumentaatio/????.jpeg)
+![sekvenssikaavio uuden pelin luomisesta](/dokumentaatio/photos/????.jpeg)
 
 (ei ole olemassa)
 
@@ -54,7 +54,7 @@ Kun käyttäjä klikkaa uusi peli -painiketta luodaan uusi peli.
 
 Kun peli päättyy tallennetaan tieto oliko peli voitto vai häviö, sekä aikaleima tietokantaan
 
-![sekvenssikaavio pelin päättymisestä](/dokumentaatio/????.jpeg)
+![sekvenssikaavio pelin päättymisestä](/dokumentaatio/photos/????.jpeg)
 
 (ei ole olemassa)
 
@@ -63,7 +63,7 @@ Kun peli päättyy tallennetaan tieto oliko peli voitto vai häviö, sekä aikal
 Kun pelissä käyttäjä klikkaa vasemmalla painikkeella, niin avataan klikattu ruutu ja mikäli ko ruutu on pommi, peli päättyy
 
 
-![sekvenssi kaavio](/dokumentaatio/sekvenssikaavio_????.jpg)
+![sekvenssi kaavio](/dokumentaatio/photos/sekvenssikaavio_????.jpg)
 
 (ei ole olemassa)
 
@@ -71,7 +71,7 @@ Kun pelissä käyttäjä klikkaa vasemmalla painikkeella, niin avataan klikattu 
 
 Kun pelissä käyttäjä klikkaa oikealla painikkeella niin liputetaan klikattu ruutu/ poistetaan klikatusta ruudusta lippu:
 
-![sekvenssi kaavio](/dokumentaatio/sekvenssikaavio_leftclick.jpg)
+![sekvenssi kaavio](/dokumentaatio/photos/sekvenssikaavio_leftclick.jpg)
 
 (typo)
 
