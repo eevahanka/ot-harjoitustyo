@@ -3,7 +3,6 @@
 ## todo
 
 - arkkitehtuurin kuvat
-- käyttöohje
 
 
 ## Dokumentaatio
