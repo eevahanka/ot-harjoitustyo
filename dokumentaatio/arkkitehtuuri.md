@@ -72,11 +72,3 @@ Kun pelissä käyttäjä klikkaa vasemmalla painikkeella, niin avataan klikattu 
 Kun pelissä käyttäjä klikkaa oikealla painikkeella niin liputetaan klikattu ruutu/ poistetaan klikatusta ruudusta lippu:
 
 ![sekvenssi kaavio](/dokumentaatio/photos/sekvenssikaavio_rightclick.jpg)
-
-(typo)
-
-
-
-
-
-
