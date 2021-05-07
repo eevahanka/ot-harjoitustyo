@@ -6,7 +6,7 @@
 
 Koodin pakkausrakenne:
 
-![kuva pakkauskaaviosta](/dokumentaatio/photos/kaavio.jpeg)
+![kuva pakkauskaaviosta](/dokumentaatio/photos/kaavio.jpg)
 
 (pitääpi tehdä uusi)
 
