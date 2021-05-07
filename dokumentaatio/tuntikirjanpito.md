@@ -15,5 +15,5 @@
 | 1.5.| 4  | testien kirjoitusta, docstringiä, readme:n arkkitehtuurin käyttöohjeen kirjoitus |
 | 6.5.| 4  | koodin siistimistä , databasen luonti ja sovelluksen käynnistys erillään, dokumentaation päivitystä |
 | 7.5.| 1 | käyttöohje|
-|  yht  | 51   |
+|  yht  | 52   |
          
