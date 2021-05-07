@@ -18,7 +18,7 @@
 
 Ohjelman avatessa avautuu näkymä:
 
-![kuva menusta](dokumentaatio/photos/kuva_menusta.jpg)
+![kuva menusta](/dokumentaatio/photos/kuva_menusta.jpg)
 
 Painamalla _Uusi peli_ avautuu peli näkymä ja painamalla _Stats_ avautuu näkymä jossa on pelin statistiikka.
 
