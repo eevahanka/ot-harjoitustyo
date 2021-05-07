@@ -12,6 +12,7 @@
 - [tuntikirjanpito](/dokumentaatio/tuntikirjanpito.md)
 - [arkkitehtuuri](/dokumentaatio/arkkitehtuuri.md)
 - [käyttöohje](/dokumentaatio/kayttoohje.md)
+- [testausdokumentti](/dokumentaatio/testaus.md)
 
 ## Komennot
 
