@@ -25,4 +25,5 @@ Painamalla  _Stats_ avautuu näkymä jossa on pelin statistiikka  ja painamalla 
 ![kuva pelistä](/dokumentaatio/photos/kuva_pelista.jpg)
 
 Painamalla ruutua hiiren vasemmalla painikkeella ruutu "avataan" painamalla oikealla painikkeella ruutu liputetaan.
+
 Pelin loputtua peli palaa automaattisesti menuun.
