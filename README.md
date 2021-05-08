@@ -19,7 +19,7 @@
 
 ````          poetry install````
 
-- Luo database ennen sovelluksen käynnistämistä:
+- Luo tietokanta ennen sovelluksen käynnistämistä:
 
 ````  poetry run invoke build````
 
