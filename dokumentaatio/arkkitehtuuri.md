@@ -53,7 +53,6 @@ Kun pelissä käyttäjä klikkaa vasemmalla painikkeella, niin avataan klikattu 
 
 ![sekvenssi kaavio](/dokumentaatio/photos/handle_leftclick.jpg)
 
-(ei ole olemassa)
 
 ### Oikean hiirenpainikkeen painaminen
 
