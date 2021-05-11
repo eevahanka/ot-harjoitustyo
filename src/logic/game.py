@@ -9,7 +9,7 @@ class Game:
     """pelin logiikasta vastaava luokka
     """
 
-    def __init__(self, bombs=7, size=15):
+    def __init__(self, bombs=40, size=15):
         """konstruktori, luo uuden pelin
 
         Args:
