@@ -1,10 +1,5 @@
 # Minesweeper
 
-## todo
-
-- arkkitehtuurin kuvat
-
-
 ## Dokumentaatio
 
 - [vaatimusmäärittely](/dokumentaatio/vaatimusmaarittely.md)
